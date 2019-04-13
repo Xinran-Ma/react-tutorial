@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Xinran-Ma/react-tutorial/precache-manifest.9a67d8174f6c81cef24dcdfc04bbff46.js"
+  "/react-tutorial/precache-manifest.61b0051b3d63a6dbeef74ba601b29e8a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Xinran-Ma/react-tutorial/index.html", {
+workbox.routing.registerNavigationRoute("/react-tutorial/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
